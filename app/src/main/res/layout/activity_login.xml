@@ -15,6 +15,10 @@
         android:layout_height="wrap_content"
         android:text="@string/normal_login_btn"
         android:layout_below="@id/login_button"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:textSize="@dimen/profile_text_view_size"
+        android:padding="@dimen/profile_margin_left"
         android:layout_marginTop="@dimen/login_btn_margin_top"
         android:layout_marginLeft="@dimen/login_btn_margin_left"
         android:layout_centerHorizontal="true"/>

@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        getSupportActionBar().setTitle("");
+        getSupportActionBar().setTitle("Twitter Search Demo");
 
         mListView = (ListView) findViewById(R.id.twitter_search_list_view);
         mProgressbar = (ProgressBar) findViewById(R.id.progressbar);
