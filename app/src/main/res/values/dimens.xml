@@ -2,4 +2,12 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="toolbar_height">48dp</dimen>
+    <dimen name="profile_image_dimension">60dp</dimen>
+    <dimen name="profile_rounded_corner_radius">3dp</dimen>
+    <dimen name="profile_margin_left">10dp</dimen>
+    <dimen name="profile_image_rounded_border_width">2dp</dimen>
+    <dimen name="profile_text_view_size">17sp</dimen>
+    <dimen name="login_btn_margin_top">10dp</dimen>
+    <dimen name="login_btn_margin_left">10dp</dimen>
 </resources>

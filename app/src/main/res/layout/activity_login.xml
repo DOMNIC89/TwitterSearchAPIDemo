@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pandyaparth.twitterapidemo.activity.LoginActivity">
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/normal_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/normal_login_btn"
+        android:layout_below="@id/login_button"
+        android:layout_marginTop="@dimen/login_btn_margin_top"
+        android:layout_marginLeft="@dimen/login_btn_margin_left"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
